@@ -1,0 +1,268 @@
+*{
+    margin: 0px;
+    font-family: 'Courier Prime', monospace;
+}
+
+body{
+    background-color: #fdfd96;
+}
+
+#navegacao{
+    display: flex;
+    max-width: 100%;
+    font-size: 1.5em;
+    justify-content: space-between;
+    background-color: #ffff61;
+
+}
+
+#navegacao h1{
+    
+    font-size: 3em;
+    font-family: 'Allura', cursive;
+    padding: 10px;
+    max-width: 30%;
+    margin: 0 auto 0 15%;
+}
+
+a{
+    text-decoration: none;
+    padding: 20px 30px 20px 30px;
+    margin: 0 auto; 
+    color: rgb(0, 0, 0);
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 0px 0px;
+}
+
+
+
+#moldura{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    opacity: 1;
+    transition: opacity 0.6s ease; 
+}
+
+
+#biografia {
+    display: flex;
+    width: 100%;
+    max-height: 800px;
+    background-color: #fdfd96;
+    margin: 100px 0px 100px 0px;
+}
+
+#fototeste {
+    max-width: 800px;
+    height: 750px;
+    padding: 20px 15px 20px 15px;
+    border-radius: 50px;
+}
+
+#biografia-texto {
+    display: flex;
+    overflow: hidden;
+    padding: 50px;
+    font-size: 1.2vw;
+    margin: 20px 50px 20px 50px;
+    border-radius: 15px;
+    flex-direction: column; 
+    background-color: #fdfdd2;
+    text-align: justify;
+    box-shadow: 8px 8px 5px #7a7a3b;
+}
+
+#biografia h2 {
+    font-family: 'Allura', cursive;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#biografia p {
+    margin-top: 10px;
+    max-width: 100%;
+}
+
+
+#streamings{
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    padding: 35px 2px 35px 2px;
+}
+
+#streamings h3{
+    font-size: 1.5em;
+    font-family: 'Allura', cursive;
+}
+
+#streamings img{
+    width: 20px;
+}
+
+
+#video{
+    margin: 100px 0px 100px 0px;
+}
+
+iframe{
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    margin: auto;
+    padding: auto;
+    border-radius: 10px;
+    box-shadow: 8px 8px 5px #7a7a3b;
+}
+
+
+#video h2{
+    font-size: 2em;
+    padding: 0px 0px 20px 0;
+    text-align: center;
+}
+
+#contatos{
+    background-color: black;
+    color: white;
+        margin: 100px 0px -15px 0px;
+}
+#contatos h2{
+    font-family: 'Allura', cursive;
+    font-size: 3em;
+    text-align: center;
+}
+
+#contatos ul{
+    text-align: center;
+    display: flex;
+
+    margin: 20px 20px 10px 20px;
+
+    flex-direction: column; 
+}
+
+#contatos a{
+    color: white;
+}
+
+#contatos img{
+    max-width: 800px;
+    padding: 20px 15px 20px 15px;
+    border-radius: 50px;
+    float: right;
+}
+
+#texto{
+    text-align: center;
+    padding: 50px 50px 50px 50px;
+}
+
+
+#texto2 ul {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    width: 50px;
+    bottom: 20px;
+    right: 30px;
+    cursor: pointer;
+    background:none;
+    border-color: none;
+
+  }
+  
+  footer, footer a{
+    color: white;
+    background-color: black;
+  }
+  #desenvolvedores{
+    font-size: 0.5em;
+    padding: 0px 30px 20px 30px;
+  }
+
+  @media (max-width: 980px) {
+    #navegacao {
+        background-color: #ffff61;
+    }
+
+    #navegacao nav ul {
+        display: block;
+        font-size: 3vw;
+    }
+
+    #navegacao nav ul li {
+            padding: 5px;
+    }
+
+    #navegacao h1 {
+        font-size: 1.2em;
+        padding: 5px;
+        max-width: 10%;
+        margin: 0 auto 0 4%;
+    }
+
+    #biografia{
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        width: 100%;
+        max-height: 2000px;
+        
+    }
+
+    #fototeste {
+        max-width: 100%; 
+        height: auto;
+        border-radius: 0px;
+        margin-bottom: 20px; 
+    }
+
+    #biografia-texto {
+        padding: 50px;
+        margin: 20px;
+        font-size: small;
+        border-radius: 15px;
+        background-color: #fdfdd2;
+        text-align: justify;
+        box-shadow: 8px 8px 5px #7a7a3b;
+    }
+
+    #biografia h2 {
+        margin-bottom: 10px;
+    }
+
+    #biografia p {
+        margin-top: 10px;
+    }
+
+    #streamings h3{
+        display: flex;
+        justify-content: center;
+    }
+
+    #streamings ul{
+        text-align: center;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    #texto2 ul {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+}
